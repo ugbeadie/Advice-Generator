@@ -78,9 +78,17 @@ body {
     box-shadow: 0 0 25px hsl(150, 100%, 66%);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 430px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+    }
     .container {
-        width: 300px;
+        width: 350px;
     }
     .advice-number {
         font-size: 10px;
@@ -93,9 +101,9 @@ body {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .container {
-        width: 200px;
+        width: 250px;
     }
 
     .advice-number {
